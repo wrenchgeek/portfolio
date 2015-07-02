@@ -6,8 +6,7 @@
 
 <p><%= link_to "Edit", edit_skill_project_path(@skill, @project) %></p>
 <p><%= link_to "Delete", skill_project_path(@skill, @project),
-              :data => {:confirm => "Are you sure?",
-                :method => 'delete'} %></p>
+              :data => {:method => 'delete'} %></p>
 
 
 <%= link_to "Back to skills", skills_path(@skill) %>

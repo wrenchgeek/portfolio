@@ -20,8 +20,7 @@
 
 <p><%= link_to "Edit", edit_skill_path(@skill) %></p>
 <p><%= link_to "Delete", skill_path(@skill),
-              :data => {:confirm => "Are you sure?",
-                :method => 'delete'} %></p>
+              :data => {:method => 'delete'} %></p>
 
 <p><%= link_to "Add a new project", new_skill_project_path(@skill) %></p>
 
