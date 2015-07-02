@@ -4,8 +4,8 @@
 
 <ul>
   <% @skills.each do |skill| %>
-    <li><%= link_to skill.name, skill_path(skill)</li>
+    <li><%= link_to skill.name, skill_path(skill)%></li>
   <% end %>
 </ul>
 
-<%= link_to "Add a Skill", new_subject_path %>
+<%= link_to "Add a Skill", new_skill_path %>
