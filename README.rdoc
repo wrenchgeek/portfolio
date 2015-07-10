@@ -2,4 +2,14 @@
 
 This is my portfolio built with Ruby on Rails
 
+WEEK 1
 its super basic now but it will get better with each week.
+
+WEEK 2
+Uuuuuuuuuuuuuuuuuggggggggggggghhhhhhhhhhhhhhhh
+Spent all day trying to debug DELETE route.  Javascript was not loading which didn't allow me to delete anything or even to log out.
+Post functionallity working (I think) but no comments, but has no specs.
+Login is working correctly but has no specs
+Pundit is being a brat and not routing correctly
+Will resubmit when everything is ship shape
+...kill me

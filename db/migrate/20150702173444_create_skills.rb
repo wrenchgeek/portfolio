@@ -4,7 +4,7 @@ class CreateSkills < ActiveRecord::Migration
       t.column :name, :string
       t.column :description, :string
 
-      t.timestamps 
+      t.timestamps
     end
   end
 end

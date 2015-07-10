@@ -1,6 +1,7 @@
 <% content_for(:title, @post.name) %>
 
 <h1> <%= @post.name %></h1>
+<h1> <%= @post.content %></h1>
 
 <% if @post.comments.any? %>
   <h4>Comments:</h4>
