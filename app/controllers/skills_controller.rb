@@ -11,10 +11,12 @@ class SkillsController < ApplicationController
 
   def new
     @skill = Skill.new
+    authorize @skill
   end
 
   def create
     @skill = Skill.new(skill_params)
+    authorize @skill
     if @skill.save
       flash[:notice] = "Skill successfully added"
       redirect_to skills_path
@@ -25,10 +27,12 @@ class SkillsController < ApplicationController
 
   def edit
     @skill = Skill.find(params[:id])
+    authorize @skill
   end
 
   def update
     @skill = Skill.find(params[:id])
+    authorize @skill
     if @skill.update(skill_params)
       flash[:notice] = "Skill successfully updated"
       redirect_to skills_path
@@ -39,6 +43,7 @@ class SkillsController < ApplicationController
 
   def destroy
     @skill = Skill.find(params[:id])
+    authorize @skill
     @skill.destroy
     flash[:notice] = "Skill successfully deleted"
     redirect_to skills_path

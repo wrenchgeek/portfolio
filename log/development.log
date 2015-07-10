@@ -1802,3 +1802,1028 @@ Processing by SkillsController#index as HTML
   [1m[36mSkill Load (0.2ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
   Rendered skills/index.html.erb within layouts/application (0.8ms)
 Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:33:02 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.5ms)
+
+NoMethodError (undefined method `authorize' for #<SkillsController:0x007facb84cf240>):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (75.7ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:34:18 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `authorize' for #<SkillsController:0x007facb826b800>):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (71.8ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:34:22 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `authorize' for #<SkillsController:0x007facb39aa0f8>):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (71.3ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:35:16 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 1.3ms)
+
+NoMethodError (undefined method `authorize' for #<SkillsController:0x007facb82a3ef8>):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (72.7ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:37:33 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.4ms)
+
+Pundit::NotDefinedError (unable to find policy `SkillPolicy` for `#<Skill id: nil, name: nil, description: nil, created_at: nil, updated_at: nil>`):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.1ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:46:40 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+Pundit::NotDefinedError (unable to find policy `SkillPolicy` for `#<Skill id: nil, name: nil, description: nil, created_at: nil, updated_at: nil>`):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (30.7ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (72.9ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:46:45 -0700
+Processing by SkillsController#new as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+Pundit::NotDefinedError (unable to find policy `SkillPolicy` for `#<Skill id: nil, name: nil, description: nil, created_at: nil, updated_at: nil>`):
+  app/controllers/skills_controller.rb:14:in `new'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (68.5ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 15:47:13 -0700
+Processing by SkillsController#new as HTML
+  Rendered layouts/_errors.html.erb (0.0ms)
+  Rendered skills/_form.html.erb (2.7ms)
+  Rendered skills/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 132ms (Views: 125.4ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/skills" for ::1 at 2015-07-10 15:47:21 -0700
+Processing by SkillsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hx6Z7DoxKvA8JgH2SgOZAgzwo+gTMymiX7glNaqn/+AwW3ORdVPs34bszakET0Odz50bb8qAjD4tAQj16zRc3g==", "skill"=>{"name"=>"stuff", "description"=>"junk"}, "commit"=>"Create Skill"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+Pundit::NotDefinedError (unable to find policy `SkillPolicy` for `#<Skill id: nil, name: "stuff", description: "junk", created_at: nil, updated_at: nil>`):
+  app/controllers/skills_controller.rb:19:in `create'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.6ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.9ms)
+
+
+Started POST "/skills" for ::1 at 2015-07-10 15:57:20 -0700
+Processing by SkillsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hx6Z7DoxKvA8JgH2SgOZAgzwo+gTMymiX7glNaqn/+AwW3ORdVPs34bszakET0Odz50bb8qAjD4tAQj16zRc3g==", "skill"=>{"name"=>"stuff", "description"=>"junk"}, "commit"=>"Create Skill"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.3ms)
+
+NameError (undefined local variable or method `log_in_path' for #<SkillsController:0x007facb53085e0>):
+  app/controllers/application_controller.rb:19:in `not_logged_in'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (83.3ms)
+
+
+Started POST "/skills" for ::1 at 2015-07-10 16:02:17 -0700
+Processing by SkillsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hx6Z7DoxKvA8JgH2SgOZAgzwo+gTMymiX7glNaqn/+AwW3ORdVPs34bszakET0Odz50bb8qAjD4tAQj16zRc3g==", "skill"=>{"name"=>"stuff", "description"=>"junk"}, "commit"=>"Create Skill"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 14ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:02:17 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 91ms (Views: 79.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:02:50 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mRlzqgM6jiO11mdNr4szt3eVt761aoi6jok5Z7KoZBcuXJnXTFhIDA8cqxLhx+kotPgPOWzZLSb8MBSn8zvHKQ==", "user"=>{"email"=>"stuff@stuff.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "stuff@stuff.com"]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.3ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mRlzqgM6jiO11mdNr4szt3eVt761aoi6jok5Z7KoZBcuXJnXTFhIDA8cqxLhx+kotPgPOWzZLSb8MBSn8zvHKQ==", "user"=>{"email"=>"stuff@stuff.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 121ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:02:52 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sy+yf1cGHFO3e+BmOerUOpAunvgWb7nxN4CRXQ7VM+/8algCGGTafA2xLDl3pg6lU0Mmf8/cHG1FObydT0aQ0Q==", "user"=>{"email"=>"stuff@stuff.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sy+yf1cGHFO3e+BmOerUOpAunvgWb7nxN4CRXQ7VM+/8algCGGTafA2xLDl3pg6lU0Mmf8/cHG1FObydT0aQ0Q==", "user"=>{"email"=>"stuff@stuff.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-07-10 16:02:59 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-07-10 16:03:29 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/iSBbQ321krQ7VGAkAIgaQX9DuldzvU1eP5/As8drlhJYWsQQpQQZWonnd/eTvr2xpC2boR9UKkKR1LCjo4NZg==", "user"=>{"email"=>"mike@mike.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.4ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'mike@mike.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "mike@mike.com"], ["encrypted_password", "$2a$10$WicWao1onoeHJuM6uBeM4.MZ5o0NFKtxTuCRhLavVANTPP.VmGj7O"], ["created_at", "2015-07-10 23:03:30.040671"], ["updated_at", "2015-07-10 23:03:30.040671"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2015-07-10 23:03:30.043140"], ["current_sign_in_at", "2015-07-10 23:03:30.043140"], ["last_sign_in_ip", "::1/128"], ["current_sign_in_ip", "::1/128"], ["sign_in_count", 1], ["updated_at", "2015-07-10 23:03:30.043951"], ["id", 7]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 90ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:03:30 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:03:36 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.2ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:03:37 -0700
+Processing by SkillsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 5ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:03:37 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:03:38 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:04:57 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.2ms)[0m  SELECT "skills".* FROM "skills"
+  Rendered skills/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 55ms (Views: 50.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:05:01 -0700
+Processing by SkillsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 16ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:05:01 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:05:01 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:05:49 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.2ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 61ms (Views: 56.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:05:51 -0700
+Processing by SkillsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 7ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:05:51 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:05:51 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:06:13 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.2ms)[0m  SELECT "skills".* FROM "skills"
+  Rendered skills/index.html.erb within layouts/application (1.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 55ms (Views: 50.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:06:14 -0700
+Processing by SkillsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 8ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:06:14 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:06:14 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:10:53 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.3ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:10:54 -0700
+Processing by SkillsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:10:54 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:10:55 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:11:31 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 215ms (Views: 205.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:11:33 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 81ms (Views: 67.9ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:11:44 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+0NSyXWn75/8DqJWmiarp/TWGfF6lOX5BQ8+fHn6oJO4fMD10Ft7xE95ZVmacdt7ayd4JYYPqd9jHoPhmTlvag==", "user"=>{"email"=>"mike@mike.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "mike@mike.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["current_sign_in_at", "2015-07-10 23:11:44.338677"], ["sign_in_count", 2], ["updated_at", "2015-07-10 23:11:44.340762"], ["id", 7]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 107ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:11:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 69ms (Views: 67.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:11:47 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.4ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 76ms (Views: 68.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:11:48 -0700
+Processing by SkillsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 9ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:11:48 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:11:48 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:12:05 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.2ms)[0m  SELECT "skills".* FROM "skills"
+  Rendered skills/index.html.erb within layouts/application (0.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:13:10 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.3ms)[0m  SELECT "skills".* FROM "skills"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered skills/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 56ms (Views: 54.6ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-07-10 16:13:14 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZlxwAhgZ2/Ouftqqf22znv8RlS8cnGch2d1bNH9DoKX1NeqEsnLFuJqtc17/XZBGLjavSrmeTipHIDHFwJDeog=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:13:14 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-07-10 16:13:19 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 51ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2015-07-10 16:13:35 -0700
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"40y6unj2KwPFRptGTD96mi47mY1dHBbB0xXKe1c92EVQE1ZstKRQC7Er6Qkm9tfazkkCkDKQ5O2A4f1qvrUN7Q==", "user"=>{"email"=>"bart@bart.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'bart@bart.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "bart@bart.com"], ["encrypted_password", "$2a$10$7FMAPRFJKd9WqtpKtiAPdeiaBmV0Rpb5HXxc2Nc.fjTXO7Op4X9.2"], ["created_at", "2015-07-10 23:13:35.930687"], ["updated_at", "2015-07-10 23:13:35.930687"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2015-07-10 23:13:35.933116"], ["current_sign_in_at", "2015-07-10 23:13:35.933116"], ["last_sign_in_ip", "::1/128"], ["current_sign_in_ip", "::1/128"], ["sign_in_count", 1], ["updated_at", "2015-07-10 23:13:35.933842"], ["id", 8]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 94ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:13:35 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:13:38 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.3ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered skills/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 57ms (Views: 55.3ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-07-10 16:14:14 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7JffsvarRsjnfIToSqWvfP1sLUE5txMShCjk1ODo2bJfyDNkOvk9wJMR9qcgbAI8HR62XFY74T7X3NPFCWAMGg=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:14:14 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:17:24 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.3ms)[0m  SELECT "skills".* FROM "skills"
+  Rendered skills/index.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `admin' for nil:NilClass):
+     8:   <% end %>
+     9: </ul>
+    10: 
+    11: <% if current_user.admin %>
+    12:   <%= link_to "Add a Skill", new_skill_path %>
+    13: <% end %>
+  app/views/skills/index.html.erb:11:in `_app_views_skills_index_html_erb__1017769277055761887_70239513725000'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.6ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (77.8ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:17:43 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:17:53 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+b6kVrOU0HWKX208b3z5v/pdAuYAocMkI1QytmxtQMK5SPqd+TWs/vr/Za1byPKVvWlMyJUdOcLy0jofNagJyw==", "user"=>{"email"=>"mike@mike.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "mike@mike.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2015-07-10 23:11:44.338677"], ["current_sign_in_at", "2015-07-10 23:17:53.512953"], ["sign_in_count", 3], ["updated_at", "2015-07-10 23:17:53.514732"], ["id", 7]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 85ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:17:53 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:17:55 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.2ms)[0m  SELECT "skills".* FROM "skills"
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+  Rendered skills/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 44ms (Views: 42.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/skills/1" for ::1 at 2015-07-10 16:17:58 -0700
+Processing by SkillsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSkill Load (0.2ms)[0m  SELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mProject Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "projects" WHERE "projects"."skill_id" = $1 LIMIT 1[0m  [["skill_id", 1]]
+  Rendered skills/show.html.erb within layouts/application (3.6ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 65ms (Views: 47.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/skills/1/projects/new" for ::1 at 2015-07-10 16:18:20 -0700
+Processing by ProjectsController#new as HTML
+  Parameters: {"skill_id"=>"1"}
+  [1m[36mSkill Load (0.3ms)[0m  [1mSELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 14ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:18:20 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:18:20 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:18:25 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.2ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  Rendered skills/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/skills/new" for ::1 at 2015-07-10 16:18:27 -0700
+Processing by SkillsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 4ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:18:27 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:18:27 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-07-10 16:21:23 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4cm5RDKwnytr/aF6hg4c6R1my/jLyMLUna0MYIEqcEj+mIY/fM8QNnRjwkYnv/oPyRYIjIiyXruRWPNwXTcRTg=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:21:23 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:21:25 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.5ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `admin' for nil:NilClass):
+     8:   <% end %>
+     9: </ul>
+    10: 
+    11: <% if current_user.admin %>
+    12:   <%= link_to "Add a Skill", new_skill_path %>
+    13: <% end %>
+  app/views/skills/index.html.erb:11:in `_app_views_skills_index_html_erb__1017769277055761887_70239513725000'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.6ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.8ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:22:53 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:23:06 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CSmNo5iVp4PIKw518htFJ8rNoP9xpv+WLT416LcHqItIgLahbFOZfycAaJ+sBohpJlGuKJyY6pyxJKuSF7o6EQ==", "user"=>{"email"=>"bart@bart.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "bart@bart.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["current_sign_in_at", "2015-07-10 23:23:06.379961"], ["sign_in_count", 2], ["updated_at", "2015-07-10 23:23:06.381805"], ["id", 8]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 86ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:23:06 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:23:09 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.2ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered skills/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/skills/1" for ::1 at 2015-07-10 16:23:11 -0700
+Processing by SkillsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSkill Load (0.2ms)[0m  [1mSELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Exists (0.2ms)[0m  SELECT  1 AS one FROM "projects" WHERE "projects"."skill_id" = $1 LIMIT 1  [["skill_id", 1]]
+  Rendered skills/show.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/skills/1/projects/new" for ::1 at 2015-07-10 16:23:13 -0700
+Processing by ProjectsController#new as HTML
+  Parameters: {"skill_id"=>"1"}
+  [1m[35mSkill Load (0.2ms)[0m  SELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:23:13 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:23:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:24:25 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.2ms)[0m  SELECT "skills".* FROM "skills"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  Rendered skills/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 65ms (Views: 59.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/skills/1" for ::1 at 2015-07-10 16:24:27 -0700
+Processing by SkillsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mSkill Load (0.3ms)[0m  SELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mProject Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "projects" WHERE "projects"."skill_id" = $1 LIMIT 1[0m  [["skill_id", 1]]
+  Rendered skills/show.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Completed 200 OK in 53ms (Views: 46.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/skills/1/projects/new" for ::1 at 2015-07-10 16:24:29 -0700
+Processing by ProjectsController#new as HTML
+  Parameters: {"skill_id"=>"1"}
+  [1m[36mSkill Load (0.3ms)[0m  [1mSELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 12ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:24:29 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:24:29 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-07-10 16:24:51 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"nGf3OgY85BlRR8swmiS5Z6fckqS5yxMTYHkkbX66bkCKPYM6vp4PFJ0QXVJnQovuq6iRA+qrqB5QVoNHARLtUw=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:24:51 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:24:54 -0700
+Processing by SkillsController#index as HTML
+  [1m[35mSkill Load (0.2ms)[0m  SELECT "skills".* FROM "skills"
+  Rendered skills/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `admin' for nil:NilClass):
+     8:   <% end %>
+     9: </ul>
+    10: 
+    11: <% if current_user.admin %>
+    12:   <%= link_to "Add a Skill", new_skill_path %>
+    13: <% end %>
+  app/views/skills/index.html.erb:11:in `_app_views_skills_index_html_erb__1017769277055761887_70239513725000'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.1ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2015-07-10 16:28:36 -0700
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:28:37 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.9ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  Rendered skills/index.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.9ms)
+
+ActionView::Template::Error (undefined method `admin' for nil:NilClass):
+     8:   <% end %>
+     9: </ul>
+    10: 
+    11: <% if current_user.admin %>
+    12:   <%= link_to "Add a Skill", new_skill_path %>
+    13: <% end %>
+  app/views/skills/index.html.erb:11:in `_app_views_skills_index_html_erb__1017769277055761887_70239513725000'
+
+
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.5ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.8ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/christinetacha/.gem/ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:28:41 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:29:01 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vszgTeUA/JSxLwF9bRPBzp5nmbTHx3ECU/9ZkXSKHNnVEzU3AjIZ/QL68jCp2vFfBK5HZpqrXVThXa3m6Oxz7g==", "user"=>{"email"=>"mike@mike.mike", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "mike@mike.mike"]]
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.4ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vszgTeUA/JSxLwF9bRPBzp5nmbTHx3ECU/9ZkXSKHNnVEzU3AjIZ/QL68jCp2vFfBK5HZpqrXVThXa3m6Oxz7g==", "user"=>{"email"=>"mike@mike.mike", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 122ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:29:09 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cwfamtLI4jWnxKi0nNMu7m6PneJzhuu9ZVloiB9wPTMY2A/gNfoHXBQRW/lYGh5/9EZDMC7qx+vX+5z/gxZSBA==", "user"=>{"email"=>"mike@mike.mike", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "mike@mike.mike"]]
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.4ms)
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cwfamtLI4jWnxKi0nNMu7m6PneJzhuu9ZVloiB9wPTMY2A/gNfoHXBQRW/lYGh5/9EZDMC7qx+vX+5z/gxZSBA==", "user"=>{"email"=>"mike@mike.mike", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (0.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 131ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2015-07-10 16:29:29 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bqyTEOcfTpWLiQ/mYBaMOeAM8bpp9g2km348EPUGyrMFc0ZqAC2r/Dhc/Kuk37yoesUvaDSaIfIp3MhnaWClhA==", "user"=>{"email"=>"bart@bart.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "bart@bart.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-07-10 23:23:06.379961"], ["current_sign_in_at", "2015-07-10 23:29:29.862898"], ["sign_in_count", 3], ["updated_at", "2015-07-10 23:29:29.864776"], ["id", 8]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 87ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:29:29 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Completed 200 OK in 41ms (Views: 40.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/skills" for ::1 at 2015-07-10 16:29:34 -0700
+Processing by SkillsController#index as HTML
+  [1m[36mSkill Load (0.2ms)[0m  [1mSELECT "skills".* FROM "skills"[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+  Rendered skills/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/skills/1" for ::1 at 2015-07-10 16:29:36 -0700
+Processing by SkillsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSkill Load (0.4ms)[0m  [1mSELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProject Exists (0.2ms)[0m  SELECT  1 AS one FROM "projects" WHERE "projects"."skill_id" = $1 LIMIT 1  [["skill_id", 1]]
+  Rendered skills/show.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 51ms (Views: 47.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/skills/1/projects/new" for ::1 at 2015-07-10 16:29:37 -0700
+Processing by ProjectsController#new as HTML
+  Parameters: {"skill_id"=>"1"}
+  [1m[35mSkill Load (0.2ms)[0m  SELECT  "skills".* FROM "skills" WHERE "skills"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 4ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2015-07-10 16:29:37 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 8]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-07-10 16:29:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 8]]
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.2ms)

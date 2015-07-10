@@ -1,0 +1,11 @@
+<% content_for(:title, "Posts") %>
+
+<h1>Posts</h1>
+
+<ul>
+  <% @posts.each do |post| %>
+    <li><%= link_to post.name, post_path(post)%></li>
+  <% end %>
+</ul>
+
+  <%= link_to "Add a Post", new_post_path %>

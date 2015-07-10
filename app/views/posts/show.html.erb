@@ -1,0 +1,27 @@
+<% content_for(:title, @post.name) %>
+
+<h1> <%= @post.name %></h1>
+
+<% if @post.comments.any? %>
+  <h4>Comments:</h4>
+
+  <ul>
+    <% @comments.each do |comment| %>
+        <li>
+          <h3><%= link_to comment.author, post_comment_path(@post, comment) %></h3>
+        </li>
+    <% end %>
+  </ul>
+
+<% else %>
+  <p>There are no comments for this post</p>
+
+<% end %>
+
+<p><%= link_to "Edit", edit_post_path(@post) %></p>
+<p><%= link_to "Delete", post_path(@post),
+              :data => {:method => 'delete'} %></p>
+
+<p><%= link_to "Add a new comment", new_post_comment_path(@post) %></p>
+
+<p><%= link_to "Back to Posts Page", posts_path %></p>
