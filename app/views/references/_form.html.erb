@@ -1,0 +1,9 @@
+<div class="reference_form">
+  <%= simple_form_for [@reference], remote: true do |f| %>
+    <%= f.text_field :name, placeholder: "Name" %>
+    <%= f.text_field :company, placeholder: "Name" %>
+    <%= f.text_field :email, placeholder: "Name" %>
+    <%= f.text_field :phone, placeholder: "Name" %>
+    <%= f.submit %>
+  <% end %>
+</div>

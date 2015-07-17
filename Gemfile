@@ -15,6 +15,7 @@ gem 'bootstrap_form'
 gem 'bcrypt-ruby', '~> 3.1.5', require: "bcrypt"
 gem 'devise'
 gem 'pundit'
+gem 'simple_form'
 
 group :development do
   gem 'byebug'

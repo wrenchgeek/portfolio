@@ -5,14 +5,17 @@ class ReferencesController < ApplicationController
    end
 
    def new
-     @reference = Skill.new
+     @reference = Reference.new
    end
 
    def create
      @reference = Reference.new(reference_params)
      if @reference.save
        flash[:notice] = "Reference successfully added"
-       redirect to home_path
+       respond_to do |format|
+         format.html {redirect_to '/'}
+         format.js
+       end
      else
        render :new
      end

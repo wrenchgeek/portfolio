@@ -14,15 +14,19 @@
 <span class='btn btn-success view_references'>View References</span>
 <div class="reference_list">
   <% if @references.any? %>
-    <ul>
-      <% @references.each do |reference| %>
-        <li><%= link_to reference.name, reference_path(reference)  %></li>
-      <% end %>
-    </ul>
+    <div class="references_container">
+      <ul>
+        <% @references.each do |reference| %>
+          <li><%= link_to reference.name, reference_path(reference)  %></li>
+        <% end %>
+      </ul>
+    </div>
   <% else %>
     <p>No references have been added yet</p>
   <% end %>
-  <%= link_to "Add Your Own Reference.", new_reference_path, class: "btn btn-info new_reference", remote: true %>
+  <!-- <%#= link_to "Add Your Own Reference.", new_reference_path, class: "btn btn-info new_reference", remote: true %> -->
+  <%= link_to "Add Your Own Reference.", new_reference_path, class: "btn btn-info new_reference" %>
+
 </div>
 
 <p>
