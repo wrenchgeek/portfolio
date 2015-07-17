@@ -1,0 +1,11 @@
+<% content_for(:title, @comment.author) %>
+
+<h1><%= @comment.author %></h1>
+<p><%= @comment.content %></p>
+
+<p><%= link_to "Edit", edit_post_comment_path(@post, @comment) %></p>
+<p><%= link_to "Delete", post_comment_path(@post, @comment),
+              :data => {:method => 'delete'} %></p>
+
+
+<%= link_to "Back to Post", post_path(@post) %>
