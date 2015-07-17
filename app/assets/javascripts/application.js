@@ -15,3 +15,14 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+
+$(function () {
+  $('.view_references').click(function() {
+    $('.reference_list').toggle();
+    if ( $('.view_references').text() == "View References") {
+      $('.view_references').text("Hide References");
+    } else {
+      $('.view_references').text("View References");
+    }
+  });
+});

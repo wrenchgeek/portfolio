@@ -4,8 +4,8 @@ class ApplicationController < ActionController::Base
   include Pundit
   protect_from_forgery with: :exception
 
-  rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
-  rescue_from Pundit::NotDefinedError, with: :not_logged_in
+  # rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
+  # rescue_from Pundit::NotDefinedError, with: :not_logged_in
 
   private
 
@@ -15,7 +15,7 @@ class ApplicationController < ActionController::Base
   end
 
   def not_logged_in
-    flash[:alert] = "You are not logged it"
+    flash[:alert] = "You are not logged in"
     redirect_to new_user_session_path
   end
 end

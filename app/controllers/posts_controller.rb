@@ -11,12 +11,12 @@ class PostsController < ApplicationController
 
   def new
     @post = Post.new
-    authorize @post
+    # authorize @post
   end
 
   def create
     @post = Post.new(post_params)
-    authorize @post
+    # authorize @post
     if @post.save
       flash[:notice] = "Post successfully added"
       redirect_to posts_path
@@ -27,12 +27,12 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
-    authorize @post
+    # authorize @post
   end
 
   def update
     @post = Post.find(params[:id])
-    authorize @post
+    # authorize @post
     if @post.update(post_params)
       flash[:notice] = "Post successfully updated"
       redirect_to posts_path
@@ -43,7 +43,7 @@ class PostsController < ApplicationController
 
   def destroy
     @post = Post.find(params[:id])
-    authorize @post
+    # authorize @post
     @post.destroy
     flash[:notice] = "Post successfully deleted"
     redirect_to posts_path

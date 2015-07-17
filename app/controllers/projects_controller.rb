@@ -2,7 +2,7 @@ class ProjectsController < ApplicationController
   def new
     @skill = Skill.find(params[:skill_id])
     @project = @skill.projects.new
-    authorize @project
+    # authorize @project
   end
 
   def show
@@ -14,7 +14,7 @@ class ProjectsController < ApplicationController
   def create
     @skill = Skill.find(params[:skill_id])
     @project = @skill.projects.new(project_params)
-    authorize @project
+    # authorize @project
     if @project.save
       flash[:notice] = "New project added to " + @skill.name + "!"
       redirect_to skill_path(@project.skill)
@@ -26,13 +26,13 @@ class ProjectsController < ApplicationController
   def edit
     @skill = Skill.find(params[:skill_id])
     @project = Project.find(params[:id])
-    authorize @project
+    # authorize @project
   end
 
   def update
     @skill = Skill.find(params[:skill_id])
     @project = Project.find(params[:id])
-    authorize @project
+    # authorize @project
     if @project.update(project_params)
       flash[:notice] = @project.title + " has been updated!"
       redirect_to skill_project_path(@skill, @project)
@@ -44,7 +44,7 @@ class ProjectsController < ApplicationController
   def destroy
     @skill = Skill.find(params[:skill_id])
     @project = Project.find(params[:id])
-    authorize @project
+    # authorize @project
     @project.destroy
     flash[:notice] = @project.title + " has been deleted"
     redirect_to skill_path(@skill)
