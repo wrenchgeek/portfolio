@@ -13,3 +13,9 @@ Login is working correctly but has no specs
 Pundit is being a brat and not routing correctly
 Will resubmit when everything is ship shape
 ...kill me
+
+WEEK 3
+Added comments section, not AJAXed yet
+References is halfway AJAXed, the form shows up and updates the DB without refresh but it will not dynamically update the list.
+Not deploying to Heroku because admin access has not been debugged fully. Putting the policies into the app folder was very helpfull but didn't solve the problem.
+I would appreciate feedback on the comments I left in the resources controller under the create method.

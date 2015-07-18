@@ -5707,3 +5707,168 @@ Processing by ReferencesController#new as JS
   Rendered references/_form.html.erb (2.0ms)
   Rendered references/new.js.erb (9.2ms)
 Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 16:36:08 -0700
+Processing by HomeController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "references"[0m
+  [1m[35mReference Load (0.6ms)[0m  SELECT "references".* FROM "references"
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 125ms (Views: 123.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/references/new" for ::1 at 2015-07-17 16:36:13 -0700
+Processing by ReferencesController#new as JS
+  Rendered references/_form.html.erb (1.6ms)
+  Rendered references/new.js.erb (8.8ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/references" for ::1 at 2015-07-17 16:36:26 -0700
+Processing by ReferencesController#create as JS
+  Parameters: {"utf8"=>"✓", "reference"=>{"name"=>"fuck", "company"=>"beans", "email"=>"stuff", "phone"=>"junk"}, "commit"=>"Create Reference"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (8.9ms)[0m  [1mINSERT INTO "references" ("name", "company", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "fuck"], ["company", "beans"], ["email", "stuff"], ["phone", "junk"], ["created_at", "2015-07-17 23:36:26.624250"], ["updated_at", "2015-07-17 23:36:26.624250"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered references/create.js.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 7.4ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 16:53:18 -0700
+Processing by HomeController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "references"[0m
+  [1m[35mReference Load (0.2ms)[0m  SELECT "references".* FROM "references"
+  Rendered home/index.html.erb within layouts/application (7.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 7]]
+Completed 200 OK in 60ms (Views: 54.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 16:53:56 -0700
+Processing by HomeController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "references"
+  [1m[36mReference Load (0.2ms)[0m  [1mSELECT "references".* FROM "references"[0m
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 60ms (Views: 55.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/references/new" for ::1 at 2015-07-17 16:53:59 -0700
+Processing by ReferencesController#new as JS
+  Rendered references/_form.html.erb (1.5ms)
+  Rendered references/new.js.erb (9.2ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/references" for ::1 at 2015-07-17 16:54:10 -0700
+Processing by ReferencesController#create as JS
+  Parameters: {"utf8"=>"✓", "reference"=>{"name"=>"do ", "company"=>"stuff", "email"=>"right", "phone"=>"now"}, "commit"=>"Create Reference"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "references" ("name", "company", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "do "], ["company", "stuff"], ["email", "right"], ["phone", "now"], ["created_at", "2015-07-17 23:54:10.155654"], ["updated_at", "2015-07-17 23:54:10.155654"]]
+  [1m[36m (7.4ms)[0m  [1mCOMMIT[0m
+  Rendered references/create.js.erb (0.2ms)
+Completed 200 OK in 19ms (Views: 5.9ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 16:54:13 -0700
+Processing by HomeController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "references"
+  [1m[36mReference Load (0.2ms)[0m  [1mSELECT "references".* FROM "references"[0m
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 51ms (Views: 48.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/references/new" for ::1 at 2015-07-17 17:02:15 -0700
+Processing by ReferencesController#new as JS
+  Rendered references/_form.html.erb (1.3ms)
+  Rendered references/new.js.erb (8.6ms)
+Completed 200 OK in 26ms (Views: 19.8ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/references" for ::1 at 2015-07-17 17:02:24 -0700
+Processing by ReferencesController#create as JS
+  Parameters: {"utf8"=>"✓", "reference"=>{"name"=>"why", "company"=>"cant", "email"=>"this", "phone"=>"work"}, "commit"=>"Create Reference"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "references" ("name", "company", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "why"], ["company", "cant"], ["email", "this"], ["phone", "work"], ["created_at", "2015-07-18 00:02:25.005021"], ["updated_at", "2015-07-18 00:02:25.005021"]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  Rendered references/create.js.erb (0.6ms)
+Completed 200 OK in 19ms (Views: 7.1ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 17:03:03 -0700
+Processing by HomeController#index as HTML
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "references"
+  [1m[36mReference Load (0.5ms)[0m  [1mSELECT "references".* FROM "references"[0m
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 62ms (Views: 57.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/references/new" for ::1 at 2015-07-17 17:03:08 -0700
+Processing by ReferencesController#new as JS
+  Rendered references/_form.html.erb (1.6ms)
+  Rendered references/new.js.erb (11.9ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/references" for ::1 at 2015-07-17 17:03:44 -0700
+Processing by ReferencesController#create as JS
+  Parameters: {"utf8"=>"✓", "reference"=>{"name"=>"can", "company"=>"this", "email"=>"just", "phone"=>"work"}, "commit"=>"Create Reference"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "references" ("name", "company", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "can"], ["company", "this"], ["email", "just"], ["phone", "work"], ["created_at", "2015-07-18 00:03:44.940078"], ["updated_at", "2015-07-18 00:03:44.940078"]]
+  [1m[36m (8.5ms)[0m  [1mCOMMIT[0m
+  Rendered references/create.js.erb (0.2ms)
+Completed 200 OK in 20ms (Views: 6.1ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 17:04:24 -0700
+Processing by HomeController#index as HTML
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "references"
+  [1m[36mReference Load (0.7ms)[0m  [1mSELECT "references".* FROM "references"[0m
+  Rendered home/index.html.erb within layouts/application (6.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/references/new" for ::1 at 2015-07-17 17:04:28 -0700
+Processing by ReferencesController#new as JS
+  Rendered references/_form.html.erb (2.3ms)
+  Rendered references/new.js.erb (9.6ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/references" for ::1 at 2015-07-17 17:04:40 -0700
+Processing by ReferencesController#create as JS
+  Parameters: {"utf8"=>"✓", "reference"=>{"name"=>"please", "company"=>"just", "email"=>"work", "phone"=>"fucker"}, "commit"=>"Create Reference"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "references" ("name", "company", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "please"], ["company", "just"], ["email", "work"], ["phone", "fucker"], ["created_at", "2015-07-18 00:04:40.652777"], ["updated_at", "2015-07-18 00:04:40.652777"]]
+  [1m[36m (8.6ms)[0m  [1mCOMMIT[0m
+  Rendered references/create.js.erb (0.6ms)
+Completed 200 OK in 21ms (Views: 6.8ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-17 17:05:34 -0700
+Processing by HomeController#index as HTML
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "references"
+  [1m[36mReference Load (0.2ms)[0m  [1mSELECT "references".* FROM "references"[0m
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 7]]
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/references/new" for ::1 at 2015-07-17 17:05:38 -0700
+Processing by ReferencesController#new as JS
+  Rendered references/_form.html.erb (1.0ms)
+  Rendered references/new.js.erb (8.7ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/references" for ::1 at 2015-07-17 17:05:49 -0700
+Processing by ReferencesController#create as JS
+  Parameters: {"utf8"=>"✓", "reference"=>{"name"=>"die", "company"=>"please", "email"=>"die", "phone"=>"please"}, "commit"=>"Create Reference"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "references" ("name", "company", "email", "phone", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["name", "die"], ["company", "please"], ["email", "die"], ["phone", "please"], ["created_at", "2015-07-18 00:05:49.791772"], ["updated_at", "2015-07-18 00:05:49.791772"]]
+  [1m[36m (8.3ms)[0m  [1mCOMMIT[0m
+  Rendered references/create.js.erb (0.6ms)
+Completed 200 OK in 21ms (Views: 6.4ms | ActiveRecord: 9.4ms)

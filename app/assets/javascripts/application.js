@@ -17,7 +17,7 @@
 //= require_tree .
 
 $(function () {
-  
+
   $('.view_references').click(function() {
     $('.reference_list').toggle();
     if ( $('.view_references').text() == "View References") {
@@ -26,8 +26,9 @@ $(function () {
       $('.view_references').text("View References");
     }
   });
-  $('new_reference').click(function() {
-    $('new_reference').hide.after('<%= j render ("form") %>')
+
+  $('.new_reference').click(function() {
+    $('.new_reference').hide.after('<%= j render ("form") %>')
   });
 
 });
