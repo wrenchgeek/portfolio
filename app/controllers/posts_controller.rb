@@ -19,7 +19,10 @@ class PostsController < ApplicationController
     # authorize @post
     if @post.save
       flash[:notice] = "Post successfully added"
-      redirect_to posts_path
+      respond_to do |format|
+        format.js
+      end
+
     else
       render :new
     end

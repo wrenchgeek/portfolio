@@ -1,5 +1,5 @@
-$('.reference_form').hide().after($('.reference_container').prepend('\
-<div>\
-  <%= link_to @reference.name, reference_path(@reference) %>
-</div>\
-'));
+$('.reference_form').hide()
+$('.reference_ul').append(' <div>\
+                                <li><%= link_to @reference.name, reference_path(@reference) %></li>\
+                              </div>');
+$('.new_reference').show();

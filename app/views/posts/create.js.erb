@@ -1,0 +1,3 @@
+$('.post_form').hide();
+$('.post_ul').append('<li><%= link_to @post.name, post_path(@post) %></li>');
+$('.new_post').show();

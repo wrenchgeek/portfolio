@@ -2,10 +2,10 @@
 
 <h1>Posts</h1>
 
-<ul>
+<ul class="post_ul">
   <% @posts.each do |post| %>
     <li><%= link_to post.name, post_path(post)%></li>
   <% end %>
 </ul>
 
-  <%= link_to "Add a Post", new_post_path %>
+  <%= link_to "Add a Post", new_post_path, class: 'new_post', remote: true %>

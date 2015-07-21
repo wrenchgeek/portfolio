@@ -15,7 +15,7 @@
 <div class="reference_list">
   <% if @references.any? %>
     <div class="references_container">
-      <ul>
+      <ul class="reference_ul">
         <% @references.each do |reference| %>
           <li><%= link_to reference.name, reference_path(reference)  %></li>
         <% end %>

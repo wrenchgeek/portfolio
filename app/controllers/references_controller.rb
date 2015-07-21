@@ -11,10 +11,8 @@ class ReferencesController < ApplicationController
      @reference = Reference.new(reference_params)
      if @reference.save
        flash[:notice] = "Reference successfully added"
-       respond_to do |format| # respond_to should be yellow
-         format.html {redirect_to '/'}
+       respond_to do |format|
          format.js
-
        end
      else
        render :new  # render should be yellow

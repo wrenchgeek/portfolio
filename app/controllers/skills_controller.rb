@@ -11,7 +11,7 @@ class SkillsController < ApplicationController
 
   def new
     @skill = Skill.new
-    # authorize @skill
+    authorize @skill
   end
 
   def create

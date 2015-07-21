@@ -27,8 +27,4 @@ $(function () {
     }
   });
 
-  $('.new_reference').click(function() {
-    $('.new_reference').hide.after('<%= j render ("form") %>')
-  });
-
 });
