@@ -15,7 +15,10 @@ class SkillPolicy
   end
 
   def new?
-    @user.admin
+    if @user
+binding.pry
+      @user.admin
+    end
   end
 
   def create?
